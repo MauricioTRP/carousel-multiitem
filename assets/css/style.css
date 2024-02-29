@@ -1,5 +1,7 @@
 .carousel-item img {
-    width: 27%;
+    width: calc(100% / 3 - 3px);
+    height: 10rem;
+    object-fit: cover;
 }
 
 .carousel-indicators button {
